@@ -1,4 +1,4 @@
-#!/usr/bin/php
+ #!/usr/bin/php
 <?php
 
 
@@ -34,6 +34,7 @@ $response = $client->send_request($request);
 echo "client received response: ".PHP_EOL;
 print_r($response);
 echo "\n\n";
+
 
 
 #$request = array();

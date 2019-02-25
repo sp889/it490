@@ -29,7 +29,7 @@ echo "client received response: ".PHP_EOL;
 print_r($response);
 echo "\n\n";
 
-if ($response = 1 ) {
+if ($response == 0 ) {
 
 header("location:loginerror.html");
 
